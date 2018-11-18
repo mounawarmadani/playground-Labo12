@@ -19,8 +19,9 @@ int main() {
   nbel = tassement( & vect[0], size);
   printf("%d\n", nbel);
   for (int cpt = 0; cpt < nbel; cpt++) {
-    printf("%d\n",vect[cpt]);
+    printf("%d ",vect[cpt]);
   }
+  printf("\n");
 
   free(vect);
 
