@@ -8,7 +8,7 @@ int main() {
   int * vect;
   int nbel = 0;
   unsigned int size;
-  
+
   scanf("%u",&size);
   vect = (int * ) malloc(size * sizeof(int));
 
@@ -19,7 +19,7 @@ int main() {
   nbel = tassement( & vect[0], size);
   printf("%d\n", nbel);
   for (int cpt = 0; cpt < nbel; cpt++) {
-    printf("%d\n",vect[cpt]);
+    printf("%d ",vect[cpt]);
   }
 
   free(vect);
