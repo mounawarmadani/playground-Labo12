@@ -3,14 +3,19 @@ plan:
 - title: Introduction
   statement: markdowns/introduction.md
 - title: Exercice 1
-  statement: markdowns/ex1.md
+  statement: markdowns/ex1-contains.md
 - title: Exercice 2
-  statement: markdowns/ex2.md
+  statement: markdowns/ex2-tassement.md
 - title: Exercice 3
   statement: markdowns/ex3.md
 projects:
-  swap:
-    root: /swap
+  contains:
+    root: /contains
+    runner:
+      name: techio/cmake-gcc-runner
+      version: latest
+  tassement:
+    root: /tassement
     runner:
       name: techio/cmake-gcc-runner
       version: latest
