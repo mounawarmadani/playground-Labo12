@@ -21,6 +21,7 @@ int main() {
   for (int cpt = 0; cpt < nbel; cpt++) {
     printf("%d ",vect[cpt]);
   }
+  printf("\n");
 
   free(vect);
 
