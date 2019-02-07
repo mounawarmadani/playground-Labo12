@@ -8,7 +8,7 @@ int main() {
   int * vect;
   int nbel = 0;
   unsigned int size;
-  
+
   scanf("%u",&size);
   vect = (int * ) malloc(size * sizeof(int));
 
